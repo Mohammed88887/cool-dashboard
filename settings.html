@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Frame Work CSS File -->
+    <link rel="stylesheet" href="css/framework.css">
+    <!-- CSS Main File -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Settings</title>
+</head>
+<body>
+    <!-- Start Main Page -->
+    <div class="page">
+        <!-- Start Sidebar -->
+        <div class="sidebar">
+            <div class="profile">
+                <img src="images/avatar.png" alt="">
+                <span class="name">Muhammed Ibrahim</span>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                           <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html" class="active">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                           <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="prfile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                           <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                           <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="cources.html" >
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                           <span>Cources</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                           <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                           <span>Plans</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                           <span>Files</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Sidebar -->
+        <!-- Start Content -->
+        <div class="content">
+            <!-- Start Head  -->
+            <div class="head">
+                <form action="">
+                    <i class="fa-solid fa-search fa-fw search"></i>
+                    <input type="search" placeholder="Type A Keyword !">
+                </form>
+                <div class="image">
+                    <i class="fa-regular fa-bell fa-fw"></i>
+                    <img src="images/avatar.png">
+                </div>
+            </div>
+            <div class="welcome-text">
+                <h1>Settings</h1>
+                <p>Hello Muhammed, All Systems Are Running Smoothley .<a href="">1 Alerts Found !</a></p>
+            </div>
+            <!-- <label>
+                    <input class="toogle-checkbox" type="checkbox" checked>
+                    <div class="toogle-switch"></div>
+                </label> -->
+            <!-- Start Settings Page -->
+            <div class="settings-page">
+                <!-- Start Settings Box -->
+                <div class="site-control">
+                    <h2>Site Control</h2>
+                    <span>Control The Web Site If there Is Maintenance</span>
+                    <div class="control-row">
+                        <div class="text">
+                            <span>Website Control</span>
+                            <p>Open/Close The Website And Tell Us The Reason</p>
+                        </div>
+                        <label>
+                            <input class="toogle-checkbox" type="checkbox" checked>
+                            <div class="toogle-switch"></div>
+                        </label>
+                    </div>
+                    <textarea class="close-message" placeholder="Close Message Content"></textarea>
+                </div>
+                <!-- Start GEneral Info -->
+                <div class="gen-info">
+                    <h2>General Info</h2>
+                    <span>General Information About Your Account</span>
+                    <div class="field">
+                        <label for="first">First Name</label>
+                        <input type="text" placeholder="First Name" id="first">
+                    </div>
+                    <div class="field">
+                        <label for="last">Last Name</label>
+                        <input type="text" placeholder="Last Name" id="last">
+                    </div>
+                    <div class="field">
+                        <label for="email">Email </label>
+                        <input class="email" type="email" value="O2sasf" id="email" disabled>
+                        <a  class="btn" href="#">Change</a>
+                    </div>
+                </div>
+                 <!-- End GEneral Info -->
+                <!-- Start Security Info -->
+                <div class="sec-info">
+                    <h2>Security Info</h2>
+                    <span>Security Information About Your Account</span>
+                    <div class="sec-box">
+                        <div class="pass-info">
+                            <span>Password</span>
+                            <p>Last Change On 25/10/2021</p>
+                        </div>
+                        <a href="#" class="change">Change</a>
+                    </div>
+                    <div class="sec-box">
+                        <div class="pass-info">
+                            <span>Two-Factor Authentication</span>
+                            <p>Enable\Disable The Feature</p>
+                        </div>
+                        <label>
+                            <input class="toogle-checkbox" type="checkbox" checked>
+                            <div class="toogle-switch"></div>
+                        </label>
+                    </div>
+                    <div class="sec-box">
+                        <div class="pass-info">
+                            <span>Devices</span>
+                            <p>Check The Login Devices List</p>
+                        </div>
+                        <a href="#" class="change eee">Change</a>
+                    </div>
+                </div>
+                 <!-- End Security Info -->
+                 <!-- Start Social Mediea -->
+                <div class="social-info">
+                    <h2>Social Info</h2>
+                    <span>Social Mediea Information</span>
+                    <div class="brand-row">
+                        <i class="fa-brands fa-twitter fa-fw"></i>
+                        <input type="text" placeholder="Twitter Username">
+                    </div>
+                    <div class="brand-row">
+                        <i class="fa-brands fa-facebook fa-fw"></i>
+                        <input type="text" placeholder="Facebook Username">
+                    </div>
+                    <div class="brand-row">
+                        <i class="fa-brands fa-linkedin fa-fw"></i>
+                        <input type="text" placeholder="Linked Username">
+                    </div>
+                    <div class="brand-row">
+                        <i class="fa-brands fa-youtube fa-fw"></i>
+                        <input type="text" placeholder="Youtube Username">
+                    </div>
+                </div>
+                 <!-- End Social Mediea  -->
+                <!-- Start Control -->
+                <div class="widget-control">
+                    <h2>Widgets Control</h2>
+                    <span>Show / Hide Widgets</span>
+                    <div class="control">
+                        <input type="checkbox" id="one" checked>
+                        <label for="one">Quick Draft</label>
+                    </div>
+                    <div class="control">
+                        <input type="checkbox" id="two">
+                        <label for="two">Yearly Targets </label>
+                    </div>
+                    <div class="control">
+                        <input type="checkbox" id="three" checked>
+                        <label for="three">Tickets Statistics</label>
+                    </div>
+                    <div class="control">
+                        <input type="checkbox" id="four">
+                        <label for="four">Latest News</label>
+                    </div>
+                    <div class="control">
+                        <input type="checkbox" id="five" checked>
+                        <label for="five">Latest Tasks</label>
+                    </div>
+                    <div class="control">
+                        <input type="checkbox" id="six">
+                        <label for="six">Top Searches</label>
+                    </div>
+                </div>
+                 <!-- End Control  -->
+                <!-- Start Backup -->
+                 <div class="backup-manger">
+                    <h2>Backup Manger</h2>
+                    <span>Control Backup Time And Location</span>
+                    <div class="date">
+                        <input type="radio" name="time" id="daily">
+                        <label for="daily">Daily</label>
+                    </div>
+                    <div class="date">
+                        <input type="radio" name="time" id="weekly">
+                        <label for="weekly">Weekly</label>
+                    </div>
+                    <div class="date">
+                        <input type="radio" name="time" id="monthly">
+                        <label for="monthly">Monthly</label>
+                    </div>
+                    <div class="servers">
+                        <input type="radio" name="server" id="server-one" checked>
+                        <div class="server">
+                            <label for="server-one">
+                                <i class="fa-solid fa-server fa-fw"></i>
+                                Max Payne
+                            </label>
+                        </div>
+                        <input type="radio" name="server" id="server-two">
+                        <div class="server">
+                            <label for="server-two">
+                                <i class="fa-solid fa-server fa-fw"></i>
+                                Tommy
+                            </label>
+                        </div>
+                        <input type="radio" name="server" id="server-three">
+                        <div class="server">
+                            <label for="server-three">
+                                <i class="fa-solid fa-server fa-fw"></i>
+                                Zero
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Backup -->
+                <!-- End Settings Box -->
+            </div>
+            <!-- End Settings Page -->
+
+    <!-- End Main Page -->
+</body>
+</html> 
